@@ -1,0 +1,27 @@
+
+git init: git init will create a new local GIT repository. The following Git command will create a repository in the current directory:
+
+
+
+git init [project name] Alternatively, you can create a repository within a new directory by specifying the project name:
+
+
+
+git clone: git clone is used to copy a repository. If the repository lies on a remote server, use:
+
+ git clone username@host:/path/to/repository
+
+    Conversely, run the following basic command to copy a local repository:
+
+git add: git add is used to add files to the staging area. For example, the basic Git following command will index the temp.txt file:
+
+git add <temp.txt>
+
+git commit: git commit will create a snapshot of the changes and save it to the git directory.
+
+    (Note that any committed changes won’t make their way to the remote repository.)
+	
+git push : git push is used to send local commits to the master branch of the remote repository. Here’s the basic code structure.
+git push origin <master>
+
+git pull: git pull merges all the changes present in the remote repository to the local working directory.
