@@ -1,0 +1,17 @@
+Used commands:
+User anlegen
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+(Texteditor)
+($ git config --global core.editor emacs)
+config check
+$ git config –list
+user name check
+$ git config user.name
+
+$ git status
+$ git add
+$ git commit
+$ git clone https://github.com/N3verland/GettingToKnowGit
+$ git push
+
